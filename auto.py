@@ -4,14 +4,11 @@ import sys
 import json
 import urlparse
 import re, csv
-import city
 import mysql_manage as db
 import config_scrapy as config
 from datetime import datetime
 from datetime import date
-import city
 from time import sleep
-from item import CraigsscraperItem
 from scrapex import common
 from scrapex.node import Node
 from scrapex.excellib import *
